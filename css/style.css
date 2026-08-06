@@ -13,16 +13,16 @@ body{
 }
 header
 {
-    background-color: #6058b9;
+    background-color: #ec1bad;
     color:#fdfbfb;
     padding:0px; 
     text-align:centre;
 }  
 hr{
     margin: 20px 0;    
-}
+}  
 nav{
-    background-color: #fdfbfb;
+    background-color: #e9bcd6;
     justify-content: center;
     gap: 25px;
     margin-top: 20px;
@@ -30,10 +30,92 @@ nav{
     display: flex;
 }
 nav a{
-    color: #6058b9;
+    color: #e2569c;
     text-decoration: none;
     font-weight: bold;    
 }
 nav a:hover{
     text-decoration: underline;    
+}
+main{
+    margin:auto;
+    width: 90%;
+    margin-top: 30px;
+}
+section{
+    margin-bottom: 30px;
+    background-color: #69da0d;
+    padding: 20px;
+    border-radius: 20px;
+}
+h2{
+    color: #ee0f0f;
+    margin-bottom: 10px;
+}
+p{
+    color: #0c0c0c;
+    margin-bottom: 10px;
+
+}
+.banner{
+    width: 60%;
+    display: block;
+    margin: 20px auto;
+    border-radius: 10px;     
+}
+ul{
+    list-style-type: disc;
+    margin-left: 50px;
+    padding: 10px;
+}
+li{
+    margin-bottom: 10px;
+}
+article{
+    background-color: #12c0eb;
+    padding: 20px;      
+    border-radius: 10px;
+}
+article:hover{
+    background-color: #f0e9ea;
+}
+table{
+    width: 90%;
+    border-collapse: collapse;
+    margin-top: 20px;
+    color: #ec1717;
+}
+td{
+    padding: 10px;
+    text-allign: centre;
+}
+table, th, td{
+    border: 1px solid #1f1d1d;
+}
+tr:hover{
+    background-color: #0e86cc;
+}
+ol{
+    margun-left: 50px;
+    padding: 10px;
+}
+ol li{
+    margin-bottom: 10px;
+}
+form {
+    margin-top: 20px;
+}
+label {
+    display: block;
+    margin-bottom: 2px;
+    font-weight: bold;
+}
+input:not([type="submit"]):not([type="radio"])
+{
+    width: 100%;
+    padding: 5px;
+    margin-bottom: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
 }
