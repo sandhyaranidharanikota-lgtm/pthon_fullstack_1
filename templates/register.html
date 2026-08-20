@@ -24,28 +24,30 @@
     <main>
         <section>
             <h2>Student Registration</h2>
-            <form>
+            <form id="reisterForm">
                 <label>Full Name</label>
-                <input type="text" placeholder="Enter Your Name"><br><br>
+                <input type="text" placeholder="Enter Your Name" id="name"><br><br>
                 <label>Email</label>
-                <input type="email" placeholder="Enter Your Email"><br><br>
+                <input type="email" placeholder="Enter Your Email" id="email"><br><br>
                 <label>Password</label>
-                <input type="Password" placeholder="Enter Your Password"><br><br>
+                <input type="Password" placeholder="Enter Your Password" id="password"><br><br>
                 <label>Date of Birth</label>
-                <input type="Date"><br><br>
+                <input type="Date" id="date"><br><br>
                 <label>Gender</label>
-                <input type="radio" name="gender" value="male">male
-                <input type="radio" name="gender" value="female">Female
+                <input type="radio" name="gender" value="male" id="male">male
+                <input type="radio" name="gender" value="female" id="female">Female
                 <br><br>
                 <input type="Submit" value="Register">
-                <label>Select Course</label>                
+                <label>Select Course</label>
             </form>
         </section>
-        <select>
-            <option>Python FullStack</option>
-            <option>Java Script</option>
-            <option>Data Science</option>
+        <select id="course" name="course">
+            <option value="python">Python FullStack</option>
+            <option value="java">Java Script</option>
+            <option value="datascience">Data Science</option>
         </select>
+        <br><br>
+        <button type="submit" value="register">Register</button>
     </main>
     <footers>
         <hr>
@@ -57,5 +59,7 @@
         <a href="#">Instagram</a>
         <a href="#">Linkedin</a>    
     </footers>
+<script src="js/script.js"><</script>
+
 </body>
 </html>
